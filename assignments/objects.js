@@ -10,12 +10,37 @@
 // 5,adaine5@samsung.com,Antonietta,F
 
 // Example format of an intern object: 1,examples@you.edu,Example,F
-const example = {
+const example = [{
   "id": 0,
-  "name": "Example",
-  "email": "examples@you.edu",
+  "name": "Mitzi",
+  "email": "mmelloy0@psu.edu",
+  "gender": "F"
+},
+{
+  "id": 1,
+  "name": "Kennan",
+  "email": "kdiben1@tinypic.com",
+  "gender": "M"
+},
+{
+  "id": 2,
+  "name": "Keven",
+  "email": "kmummery2@wikimedia.org",
+  "gender": "M"
+},
+{
+  "id": 3,
+  "name": "Gannie",
+  "email": "gmartinson3@illinois.edu",
+  "gender": "M"
+},
+{
+  "id": 4,
+  "name": "Antonietta",
+  "email": "adaine5@samsung.com",
   "gender": "F"
 }
+]
 
 // Write your intern objects here:
 
@@ -50,7 +75,7 @@ const example = {
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
 const parent = {}
-
+const poop ={}
 // Log the parent object's name
 
 // Log the child's age
