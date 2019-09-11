@@ -76,6 +76,7 @@ const example = [{
 
 const parent = {}
 const poop ={}
+const hello ={}
 // Log the parent object's name
 
 // Log the child's age
